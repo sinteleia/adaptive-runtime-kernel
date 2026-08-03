@@ -181,6 +181,27 @@ The `Author` and `Verified by` fields may be left unfilled in historical code. F
 RTK is a soft real-time kernel for embedded systems, conceived to be simple and essential enough to be understood in detail by the user. In partial contrast to the more common approach, this mode makes it possible to consider it more as an integral part of the application FW than as an environment inside which the application is executed, with full awareness of its strengths and limitations.
 For this reason RTK may be used either as a standalone library, compiled separately, or as a set of sources to be compiled together with the application itself.
 
+## Static application integration
+
+ARK is designed to be linked with a single embedded application and deployed
+as one statically built firmware image. Tasks and RTK objects, such as queues,
+semaphores, timers, and memory pools, are referenced directly by the
+application and resolved at build time.
+
+This differs from systems intended to host multiple independently built or
+dynamically loaded programs. Such systems typically require a runtime object
+registry through which programs locate shared kernel objects using symbolic
+names or handles.
+
+ARK deliberately does not adopt that model. It does not provide dynamic
+program loading or a symbolic runtime database of kernel objects. This reduces
+deployment flexibility, but also removes the loader, name-resolution
+mechanisms, object-registry state, and related runtime failure modes.
+
+The resulting architecture is intended for embedded systems in which the
+kernel and application are engineered, analysed, linked, and deployed as a
+single unit.
+
 The architecture is composed of the following subsystems:
 
 1. **Task management**: creation, destruction, and management of tasks;

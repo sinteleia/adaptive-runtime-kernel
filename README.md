@@ -23,6 +23,10 @@ The supplied board project has been built and tested with STM32CubeIDE.
 ARK treats complexity as an engineering cost. Its design favors mechanisms that remain understandable, deterministic, and under the developer's explicit
 control.
 
+ARK is intended for statically integrated embedded firmware. The kernel,
+application tasks, and RTK objects are linked into a single firmware image,
+rather than discovered through a runtime symbolic object registry.
+
 Read the complete [ARK Manifesto](MANIFESTO.md).
 
 ## Supported reference platform
