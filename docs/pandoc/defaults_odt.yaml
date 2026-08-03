@@ -1,0 +1,9 @@
+from: markdown+smart
+to: odt
+standalone: true
+number-sections: true
+reference-doc: pandoc/reference.odt
+resource-path:
+  - .
+  - Text
+  - figs

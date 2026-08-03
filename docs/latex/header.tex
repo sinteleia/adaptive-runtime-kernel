@@ -1,0 +1,56 @@
+\usepackage{soul}
+\usepackage{xcolor}
+\usepackage{pdflscape}
+\usepackage{makecell}
+\sethlcolor{yellow}
+\newcommand{\highlight}[1]{\hl{#1}}
+% evidenzia formule matematiche
+\newcommand{\hlmath}[1]{\colorbox{yellow}{$\displaystyle #1$}}
+\newcommand{\vect}[1]{\boldsymbol{#1}}
+\usepackage{tcolorbox}
+\AtBeginDocument{\typeout{=== HEADER TEX INCLUSO ===}}
+\newtcolorbox{definition}{
+  colframe=blue!60,
+  colback=white,
+  boxrule=0.5pt,
+  arc=2mm,
+  left=4pt,
+  right=4pt,
+  top=4pt,
+  bottom=4pt
+}
+\newtcolorbox{remark}{
+  colframe=gray,
+  colback=white,
+  boxrule=0.5pt,
+  arc=2mm,
+  left=4pt,
+  right=4pt,
+  top=4pt,
+  bottom=4pt
+}
+% --- Box personalizzati (Pandoc div) ---
+
+\tcbuselibrary{breakable}
+
+\newtcolorbox{nota}{
+  colback=gray!10,
+  colframe=blue!60,
+  left=1em,
+  breakable
+}
+
+\newtcolorbox{attenzione}{
+  colback=red!5,
+  colframe=red!70!black,
+  left=1em,
+  breakable
+}
+
+
+% Salto pagina dopo l'indice
+% \let\oldtableofcontents\tableofcontents
+% \renewcommand{\tableofcontents}{%
+%   \oldtableofcontents
+%   \clearpage
+% }

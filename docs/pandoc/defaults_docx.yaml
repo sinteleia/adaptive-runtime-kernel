@@ -1,0 +1,13 @@
+from: markdown+smart+bracketed_spans+fenced_divs
+to: docx
+
+standalone: true
+number-sections: true
+toc: true
+
+reference-doc: pandoc/reference.docx
+
+resource-path:
+  - .
+  - Text
+  - figs

@@ -1,0 +1,19 @@
+from: markdown+bracketed_spans+fenced_divs
+from: markdown+bracketed_spans+fenced_divs
+to: pdf
+
+pdf-engine: xelatex
+
+include-in-header:
+  - latex/header.tex
+
+number-sections: true
+toc: true
+
+resource-path:
+  - .
+  - ..
+  - docs/text
+  - figs
+  - docs
+  - Text

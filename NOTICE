@@ -1,3 +1,17 @@
 ARK — Adaptive Runtime Kernel
 
 Copyright 2026 Sintéleia S.r.l.
+
+This distribution includes third-party software components:
+
+- Arm CMSIS components, licensed under the Apache License 2.0.
+  See `firmware/boards/NUCLEO-F446-RE/BasicDemo/Drivers/CMSIS/LICENSE.txt`.
+- STMicroelectronics STM32F4 CMSIS device components, licensed under the
+  Apache License 2.0.
+  See `firmware/boards/NUCLEO-F446-RE/BasicDemo/Drivers/CMSIS/Device/ST/STM32F4xx/LICENSE.txt`.
+- STMicroelectronics STM32F4 HAL Driver components, licensed under the
+  BSD 3-Clause License.
+  See `firmware/boards/NUCLEO-F446-RE/BasicDemo/Drivers/STM32F4xx_HAL_Driver/LICENSE.txt`.
+
+Third-party components retain their respective copyright notices and license
+terms.

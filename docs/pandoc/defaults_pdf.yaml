@@ -1,0 +1,16 @@
+from: markdown+smart+bracketed_spans+fenced_divs
+to: pdf
+
+standalone: true
+number-sections: true
+
+pdf-engine: xelatex
+
+include-in-header:
+  - latex/header.tex
+
+resource-path:
+  - .
+  - ..
+  - ../text
+  - ../figs

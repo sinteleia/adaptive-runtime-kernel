@@ -1,0 +1,159 @@
+# =========================
+
+# Build directories
+
+# =========================
+
+Debug/
+Release/
+build/
+output/
+
+# Ovunque nel repository
+
+**/Debug/
+**/Release/
+**/build/
+**/output/
+
+# =========================
+
+# Build artifacts
+
+# =========================
+
+*.o
+*.obj
+*.d
+*.a
+*.lib
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.list
+*.srec
+*.iss
+*.LSS
+*.lss
+
+# STM32 / GCC analysis
+
+*.su
+*.cyclo
+
+# STM32 / toolchain
+
+*.axf
+*.out
+*.ld.tmp
+
+# Generated makefiles
+
+subdir.mk
+sources.mk
+objects.mk
+objects.list
+
+# CMake / Ninja generated
+
+CMakeCache.txt
+build.ninja
+.ninja*
+cmake_install.cmake
+
+# =========================
+
+# Temporary / debug
+
+# =========================
+
+*.log
+*.tmp
+*.bak
+
+# =========================
+
+# VS Code
+
+# =========================
+
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/c_cpp_properties.json
+!.vscode/settings.json
+
+# =========================
+
+# Eclipse / CubeIDE
+
+# =========================
+
+/.project
+**/.settings/
+*.launch
+
+# =========================
+
+# OS files
+
+# =========================
+
+Thumbs.db
+.DS_Store
+
+# =========================
+
+# Python
+
+# =========================
+
+**pycache**/
+*.pyc
+
+# =========================
+
+# Pandoc / LaTeX generated
+
+# =========================
+
+*.pdf
+*.docx
+*.odt
+*.aux
+*.toc
+
+!docs/pandoc/reference.odt
+!docs/pandoc/template.docx
+
+# =========================
+
+# Backup files
+
+# =========================
+
+*~
+*.swp
+*.s#*
+*.s##
+
+# =========================
+
+# Audio
+
+# =========================
+
+*.wav
+*.WAV
+
+# =========================
+
+# Windows binaries
+
+# =========================
+
+*.exe
+*.dll
+*.pdb
