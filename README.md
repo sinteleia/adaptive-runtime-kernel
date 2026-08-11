@@ -6,7 +6,7 @@ The internal kernel implementation retains the historical name RTK.
 
 ## Project status
 
-This is the first public ARK release.
+ARK v1.0.0 is the first public release of the Adaptive Runtime Kernel.
 
 The repository currently provides:
 
