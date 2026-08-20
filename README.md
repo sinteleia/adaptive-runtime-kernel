@@ -59,12 +59,12 @@ Follow the [Out-of-the-box guide](docs/text/outofthebox.md) to import, build, ru
 
 ## Documentation
 
-* [Technical manual](docs/text/ARK_Technical_Manual.md)
-* [Software requirements](docs/text/ARK_Software_Requirements.md)
-* [Test plan](docs/text/ARK_Test_Plan.md)
-* [Test procedure](docs/text/ARK_Test_Procedure.md)
-* [Test report](docs/text/ARK_Test_Report.md)
-* [Traceability matrix](docs/text/ARK_Traceability_Matrix.md)
+* [Technical manual](docs/text/RTK_Technical_Manual.md)
+* [Software requirements](docs/text/RTK_Software_Requirements.md)
+* [Test plan](docs/text/RTK_Test_Plan.md)
+* [Test procedure](docs/text/RTK_Test_Procedure.md)
+* [Test report](docs/text/RTK_Test_Report.md)
+* [Traceability matrix](docs/text/RTK_Traceability_Matrix.md)
 
 ## Intended use and limitations
 
