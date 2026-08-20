@@ -59,7 +59,7 @@ Follow the [Out-of-the-box guide](docs/text/outofthebox.md) to import, build, ru
 
 ## Documentation
 
-* [Technical manual](docs/text/RTK_Technical_Manual.md)
+* [Technical manual](docs/text/RTK_TechnicalManual.md)
 * [Software requirements](docs/text/RTK_Software_Requirements.md)
 * [Test plan](docs/text/RTK_Test_Plan.md)
 * [Test procedure](docs/text/RTK_Test_Procedure.md)
