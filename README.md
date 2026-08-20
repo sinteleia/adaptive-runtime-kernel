@@ -55,16 +55,16 @@ The reference STM32CubeIDE project is located at:
 
 `firmware/boards/NUCLEO-F446-RE/BasicDemo`
 
-Follow the [Out-of-the-box guide](docs/OUT_OF_THE_BOX.md) to import, build, run, and test the project.
+Follow the [Out-of-the-box guide](docs/text/outofthebox.md) to import, build, run, and test the project.
 
 ## Documentation
 
-* [Technical manual](docs/ARK_Technical_Manual.md)
-* [Software requirements](docs/ARK_Software_Requirements.md)
-* [Test plan](docs/ARK_Test_Plan.md)
-* [Test procedure](docs/ARK_Test_Procedure.md)
-* [Test report](docs/ARK_Test_Report.md)
-* [Traceability matrix](docs/ARK_Traceability_Matrix.md)
+* [Technical manual](docs/text/ARK_Technical_Manual.md)
+* [Software requirements](docs/text/ARK_Software_Requirements.md)
+* [Test plan](docs/text/ARK_Test_Plan.md)
+* [Test procedure](docs/text/ARK_Test_Procedure.md)
+* [Test report](docs/text/ARK_Test_Report.md)
+* [Traceability matrix](docs/text/ARK_Traceability_Matrix.md)
 
 ## Intended use and limitations
 
